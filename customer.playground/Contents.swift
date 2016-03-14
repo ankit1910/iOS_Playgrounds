@@ -41,8 +41,8 @@ class Customer {
 }
 
 
-let a = Customer(name: "ankit")!
-let b = Customer(name: "ankitdon")!
+var a = Customer(name: "ankit")!
+var b = Customer(name: "ankitdon")!
 
 b.name
 b.accountNo
